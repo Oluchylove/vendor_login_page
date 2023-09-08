@@ -1,0 +1,66 @@
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+        line-height: 1.4;
+       
+    }
+    .details, .login-main{
+        width:300px ;
+        border-radius: 5px;
+        border: 1px solid #ebebeb;
+      } 
+      
+      .bi-list{
+        display:block;
+        order: 1;
+        
+      }
+      .nav-text{
+        order: 2;
+        position: absolute;
+        right: 45%;
+      }
+      .bi-person{
+        order: 3;
+        position: absolute;
+        left: 90%;
+      }
+      .custom-nav{
+        display: flex;
+        flex-flow:row;
+
+      }
+      .code{
+        font-size: 20px;
+        color: #32363b !important;
+      }
+      .carousel-control-prev{
+        margin-left: 127px;
+        margin-top:285px;
+      }
+      .carousel-control-next{
+        margin-right: 127px;
+        margin-top:285px;
+
+      }
+      
+      .apply{
+        display: flex;
+        padding-left: 10px;
+        justify-content: left;
+        align-items: left;
+      }
+      .reg{
+        color: #32363b !important;
+        font-size: 19px; 
+        font-weight: 500;
+    
+      } 
+       .reg:hover{
+        background-color: #0d6efd;
+        color: aliceblue !important;
+        font-size: 19px;
+        font-weight: 500;
+      }
+      
+}
